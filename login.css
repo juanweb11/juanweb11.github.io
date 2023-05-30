@@ -1,0 +1,71 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(src/img/imagenfondo2.jpg);
+    background-size: cover;
+    width: 20px;
+}
+
+.containerPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    gap: 60px;
+}
+
+input {
+    outline: 0;
+    background-color: rgb(207, 212, 212);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.boton {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: rgb(13, 73, 238);
+    border: 0;
+    border-radius: 1rem;
+    padding: 15px;
+    color: rgb(255, 254, 254);
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: cornsilk;
+    max-width: 400px;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-img img {
+    width: 100xp;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50%;
+}
